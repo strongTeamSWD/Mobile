@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-icon name="person" class="login-icon" (click)="openLoginPage()"></ion-icon>
+    <ion-icon name="notifications" class="notifications"></ion-icon>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3 class="home-title">Drive your action!</h3>
+
+  <button ion-button secondary class="btn-advertiser" (click)="openRegisterAdv()">Advertiser</button>
+  <br/>
+  <button ion-button  class="btn-publisher" (click)="openRegisterPub()">Publisher</button>
+ 
+  <p class="bottom-text">Growing revenue for advertisers and publishers!</p>
+</ion-content>

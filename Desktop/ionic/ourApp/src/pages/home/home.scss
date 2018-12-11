@@ -1,0 +1,54 @@
+page-home {
+ion-content{
+    background: rgb(76, 191, 219);  /* fallback for old browsers */
+//background: -webkit-linear-gradient(to bottom, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(#F5FFFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.home-title{
+   font-family: Trattatello, fantasy;
+   font-weight: 100;
+   text-align: center;
+   padding: 50px;
+   color: #808080;
+}
+.login-icon{
+    margin-right: 10px;
+    float: right;
+    color: #000;
+}
+.notifications{
+    margin-right: 20px;
+    float: right;
+    color: #000;
+}
+.btn-advertiser{
+   width: 150px;
+   left: 70px;
+   height: 50px;
+   
+}
+.btn-publisher{
+  left: 70px;
+  top: 20px;
+  width: 150px;
+  background-color: #fff;
+  border: 1px solid rgb(40, 153, 182);
+  color: #000;
+  height: 50px;
+}
+.bottom-text{
+  margin-top: 200px;
+  text-align: center;
+  color: #808080;
+}
+}
+@media (min-width: 240px) and (max-width: 768px) {
+    ion-grid {
+        background: #fff;
+    }
+    ion-col {
+        border: none;
+    }
+}

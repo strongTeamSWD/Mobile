@@ -1,0 +1,44 @@
+
+$white-color: #fff;
+$height100: 100%;
+$button-color: #283593;
+$darker-color: #6e6565;
+
+ion-content{
+    background: #8b7f7f;
+}
+ion-grid {
+    width:100%;
+    height: $height100;
+    background: #8b7f7f;
+}
+
+ion-row {
+    height: $height100;
+}
+
+ion-col {
+    border: 1px solid #488aff;
+    background: $white-color;
+    border-radius: 5px;
+}
+
+ion-button {
+    font-weight: 300;
+    color: $button-color;
+}
+.login-title{
+    font-weight: bold;
+}
+.register-link{
+    text-decoration: underline;
+}
+
+@media (min-width: 240px) and (max-width: 768px) {
+    ion-grid {
+        background: $darker-color;
+    }
+    ion-col {
+        border: none;
+    }
+}
