@@ -4,9 +4,6 @@ $height100: 100%;
 $button-color: #283593;
 $darker-color: #6e6565;
 
-ion-content{
-
-}
 ion-grid {
     width:100%;
     height: $height100;
@@ -16,10 +13,14 @@ ion-row {
     height: $height100;
 }
 
-ion-col {
+.register-form {
     border: 1px solid #488aff;
     background: $white-color;
     border-radius: 5px;
+}
+.register-btn{
+    text-align: center;
+    margin-top: 10px;
 }
 
 ion-button {

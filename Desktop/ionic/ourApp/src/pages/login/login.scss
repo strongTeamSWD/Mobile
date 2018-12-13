@@ -8,7 +8,7 @@ ion-content{
     background: #8b7f7f;
 }
 ion-grid {
-    width:100%;
+    width: 100%;
     height: $height100;
     background: #8b7f7f;
 }
@@ -16,14 +16,24 @@ ion-grid {
 ion-row {
     height: $height100;
 }
-
-ion-col {
+.title{
+    font-family: Trattatello, fantasy;
+    font-weight: 100;
+    padding: 10px;
+}
+.sign-in{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
     border: 1px solid #488aff;
     background: $white-color;
     border-radius: 5px;
+    margin-top: 120px;
 }
-
-ion-button {
+.submit{
+    text-align: center;
+}
+.login-btn {
     font-weight: 300;
     color: $button-color;
 }

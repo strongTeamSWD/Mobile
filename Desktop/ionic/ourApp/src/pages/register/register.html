@@ -10,7 +10,7 @@
 <ion-content padding>
   <ion-grid>
       <ion-row justify-content-center>
-        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+        <div class="register-form">
           <div text-center>
             <p>Become our partner, it is easy</p>
             <h4 class="login-title">Register as Advertiser</h4>
@@ -37,22 +37,14 @@
                       <ion-item>
                           <ion-input type="password" placeholder="Password*"></ion-input>
                         </ion-item>
-                      </div>
                       <ion-item>
                           <ion-input type="password" placeholder="Password confirmation*"></ion-input>
                         </ion-item>
-          
-    
-          <div padding>
-          <button ion-button secondary size="large" href="/touchid" expand="block">Log In</button>
-          </div>
-          <div padding>
-            <div text-center>
-                <a href="#" class="register-link">Register</a>
-            </div>  
-          </div>
-      
-        </ion-col>
+                      </div>
+              <div padding  class="register-btn">
+                 <button ion-button secondary size="large" href="/touchid" expand="block">Register</button>
+            </div>     
+        </div>
       </ion-row>
     </ion-grid>
 </ion-content>

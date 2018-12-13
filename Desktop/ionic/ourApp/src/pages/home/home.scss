@@ -25,18 +25,19 @@ background: linear-gradient(#F5FFFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 
 }
 .btn-advertiser{
    width: 150px;
-   left: 70px;
+   display: flex;
    height: 50px;
-   
+   margin: 0 auto;
 }
 .btn-publisher{
-  left: 70px;
+  display: flex;
   top: 20px;
   width: 150px;
   background-color: #fff;
   border: 1px solid rgb(40, 153, 182);
   color: #000;
   height: 50px;
+  margin: 0 auto;
 }
 .bottom-text{
   margin-top: 200px;
