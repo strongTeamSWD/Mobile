@@ -8,6 +8,9 @@ import { AboutPage } from '../pages/about/about';
 import { RegisterPage } from '../pages/register/register';
 import { LoginPage } from '../pages/login/login';
 import { RegisterpubPage } from '../pages/registerpub/registerpub';
+import { OffersPage } from '../pages/offers/offers';
+import { MyoffersPage } from '../pages/myoffers/myoffers';
+import { OfferdetailsPage } from '../pages/offerdetails/offerdetails';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -20,6 +23,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RegisterPage,
     LoginPage,
     RegisterpubPage,
+    OffersPage,
+    MyoffersPage,
+    OfferdetailsPage,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +39,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RegisterPage,
     LoginPage,
     RegisterpubPage,
+    OffersPage,
+    MyoffersPage,
+    OfferdetailsPage,
   ],
   providers: [
     StatusBar,

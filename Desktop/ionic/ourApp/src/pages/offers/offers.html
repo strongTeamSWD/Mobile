@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Offers</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <form class="search-form">
+  <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+  <button ion-button class="search-btn"><ion-icon name="search"></ion-icon></button>
+  </form>
+  <br>
+  <table class="table table-striped">
+    <thead class="table-head">
+      <tr>
+        <th scope="col">LOGO</th>
+        <th scope="col">Offer</th>
+        <th scope="col">Rating</th>
+        <th scope="col">Rates</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr (click)="openOfferDetails()" *ngFor= "let o of offers">
+        <th scope="row"></th>
+        <td>{{o.name}}</td>
+        <td>{{o.rate}}</td>
+        <td>7%</td>
+      </tr>
+    </tbody>
+  </table>
+</ion-content>

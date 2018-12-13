@@ -1,0 +1,24 @@
+page-offers {
+ ion-content{
+     .table{
+         border: 1px solid #ccc;
+     }
+     .table-head{
+         background: #D8BFD8;
+        //  color: #fff;
+     }
+     .logo-offer{
+         height: 30px;
+         width: 30px; 
+     }
+     .search-form{
+         display: flex;
+     }
+     .search-btn{
+         margin-top: -2px;
+         padding: 15px;
+         height: 35px;
+         background: #FF4500;
+     }
+ }
+}
